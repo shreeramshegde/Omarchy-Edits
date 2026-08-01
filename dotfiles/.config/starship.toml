@@ -26,10 +26,10 @@ conflicted = " "
 up_to_date = " "
 untracked  = "? "
 modified   = " "
-stashed    = ""
-staged     = ""
-renamed    = ""
-deleted    = ""
+stashed    = "󰏗 "
+staged     = " "
+renamed    = "󰑕 "
+deleted    = " "
 
 # --- NEW CONDA SECTION ---
 [conda]

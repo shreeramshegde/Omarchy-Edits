@@ -65,6 +65,9 @@ alias mkdir='mkdir -p'
 # Ensure standard behavior is enabled
 bindkey -e
 
+# Treat paths and symbols as word separators (Stops at /, ., -, and :)
+WORDCHARS='*?_[]~=&;!#$%^(){}<>'
+
 # Ctrl + Left/Right Arrows for jumping words
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
@@ -119,3 +122,5 @@ else
 fi
 unset __mamba_setup
 # <<< mamba initialize <<<
+
+

@@ -124,3 +124,5 @@ unset __mamba_setup
 # <<< mamba initialize <<<
 
 
+
+export PATH=$PATH:/home/shreeram/.spicetify

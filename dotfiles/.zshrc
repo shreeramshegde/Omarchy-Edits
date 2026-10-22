@@ -126,3 +126,7 @@ unset __mamba_setup
 
 
 export PATH=$PATH:/home/shreeram/.spicetify
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/shreeram/.local/bin:$PATH"

@@ -90,6 +90,8 @@ bindkey "^[[3;5~" kill-word
 # 7. Initialize the Starship Prompt
 eval "$(starship init zsh)"
 
+# Initialize the zoxide
+eval "$(zoxide init zsh --cmd cd)"
 # =============================================================================
 # DO NOT DELETE ANYTHING BELOW THIS LINE IF CONDA IS INITIALIZED
 # =============================================================================
